@@ -5,10 +5,10 @@ from math import cos
 class PyroDynamics:
 	def __init__(self):
 		self.M = 1
-		self.l = 1
-		self.m = 1
-		self.I = 1
-		self.g = 1
+		self.l = 0.5
+		self.m = 0.4
+		self.I = 0.0083
+		self.g = 9.81
 		
 	def get_fx(self,x):
 		x1 = x[0]
