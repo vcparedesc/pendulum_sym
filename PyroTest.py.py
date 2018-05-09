@@ -2,7 +2,7 @@ import numpy as np
 from math import sin 
 from math import cos 
 
-class PyroDynamics:
+class PyroTest.py:
 	def __init__(self):
 		self.M = 1
 		self.l = 0.5
